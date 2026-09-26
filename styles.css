@@ -20,16 +20,16 @@ ul{
 	padding:10px;
 }
 
-ul>nth-child(odd){
+li:nth-child(odd){
 	background-color:white;
 }
 
-ul>first-child,
-ul>last-child{
+li:first-child,
+li:last-child{
 	font-size:22px;
 }
 
-ul>nth-child(3),
-ul>last-child{
+li:nth-child(3),
+li:last-child{
 	background-color:pink;
 }
