@@ -24,8 +24,8 @@ ul:nth-child(odd){
 	background-color:white;
 }
 
-ul:first-child,
-ul:last-child{
+ul>first-child,
+ul>last-child{
 	font-size:22px;
 }
 
