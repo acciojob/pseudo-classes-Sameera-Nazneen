@@ -3,14 +3,14 @@
 	background-color:rgb(135, 206, 235)
 }
 
-article:first-child{
+p:first-child{
 	background-color:black;
 	color:white;
 }
 
 
 
-article:last-child{
+p:last-child{
 	color:red;
 }
 
@@ -20,7 +20,7 @@ ul{
 	padding:10px;
 }
 
-ul:nth-child(odd){
+ul>nth-child(odd){
 	background-color:white;
 }
 
@@ -29,7 +29,7 @@ ul>last-child{
 	font-size:22px;
 }
 
-ul:nth-child(3),
-ul:last-child{
+ul>nth-child(3),
+ul>last-child{
 	background-color:pink;
 }
