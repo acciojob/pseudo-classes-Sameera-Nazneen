@@ -8,9 +8,7 @@ article:first-child{
 	color:white;
 }
 
-article:nth-child(2){
-	color:default;
-}
+
 
 article:last-child{
 	color:red;
@@ -31,6 +29,7 @@ ul:last-child{
 	font-size:22px;
 }
 
-ul:nth-child(n+3){
+ul:nth-child(3),
+ul:last-child{
 	background-color:pink;
 }
